@@ -1,5 +1,5 @@
 # Django-blog
-> A simple blog app, used to equip me with the necessary django skills
+> A simple blog app, to equip me with the necessary django skills
 
 ## New topics and skills learnt
 * Django signals
@@ -11,24 +11,24 @@
 * Clone the app into your virtual environment
 * Install the dependencies
 
-'''
+```
 pip install -r requirements.txt
-'''
+```
 
 * Makemigrations and migrate to the database
 
-'''
+```
 python manage.py makemigrations
-'''
+```
 
-'''
+```
 python manage.py migrate
-'''
+```
 
 * Start development server
 
-'''
+```
 python manage.py runserver
-'''
+```
 
 * Navigate to [localhost:8000](http://localhost:8000). You should see your app running.
