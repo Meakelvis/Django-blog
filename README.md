@@ -10,22 +10,25 @@
 ## Get started
 * Clone the app into your virtual environment
 * Install the dependencies
-'''bash
+
+'''
 pip install -r requirements.txt
 '''
 
 * Makemigrations and migrate to the database
-'''bash
+
+'''
 python manage.py makemigrations
 '''
 
-'''bash
+'''
 python manage.py migrate
 '''
 
 * Start development server
-'''bash
+
+'''
 python manage.py runserver
 '''
 
-Navigate to [localhost:8000](http://localhost:8000). You should see your app running.
+* Navigate to [localhost:8000](http://localhost:8000). You should see your app running.
